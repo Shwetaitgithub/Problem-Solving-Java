@@ -1,0 +1,15 @@
+public class Main{
+public static void main(String[]args){
+     String s="Programing";
+     char key='s';
+     boolean found=false;
+     for(char ch:s.toCharArray()){
+          if(ch==key){
+               found=true;
+               break;
+          }
+     }
+     System.out.println(found);
+
+}
+}
